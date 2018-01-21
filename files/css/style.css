@@ -50,7 +50,7 @@ body {
 	right: 2em;
 }
 
-#roadmap .row:nth-of-type(odd) .fa {
+#roadmap .row:nth-of-type(even) .fa {
 	color: #EFEFEF !important;
 }
 
