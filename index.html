@@ -1,12 +1,12 @@
-<?php
+<?
 	$current_url = sprintf( "https://%s", $_SERVER['SERVER_NAME'] );
 	$title = "Chotkocoin - Криптовалюта для чётких пацанов";
 	$site_name= "Сhotkocoin";
 	$description = "Сhotkocoin - одноранговая интернет-валюта, которая включает в себя, почти нулевые по стоимости платежи в любую точку мира.";
-	$image_url = "";
-	$image_size_x = 536;
-	$image_size_y = 536;
-
+	$image_url = $current_url . "/files/images/chotkocoin.png";
+	$image_size_x = 256;
+	$image_size_y = 256;
+	
 
 ?><!DOCTYPE html>
 <html lang="ru">
@@ -38,8 +38,8 @@
 <meta property="article:modified_time" content="2017-12-14T12:02:11+02:00">
 <meta property="og:updated_time" content="2017-12-14T12:02:11+02:00">
 <meta property="og:image" content="<?= $image_url; ?>">
-<meta property="og:image:width" content="536">
-<meta property="og:image:height" content="336">
+<meta property="og:image:width" content="<?= $image_size_x; ?>">
+<meta property="og:image:height" content="<?= $image_size_y; ?>">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:description" content="<?= $description; ?>">
 <meta name="twitter:title" content="<?= $title; ?>">
