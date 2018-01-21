@@ -31,23 +31,38 @@ body {
 }
 
 #roadmap .row:nth-of-type(even) div div {
-	left: 0;
+	left: 2em;
 }
 
 #roadmap .row:nth-of-type(odd) div div {
-	right: 0;
+	right: 2em;
 }
 
 #roadmap .row:nth-of-type(even) .fa {
 	color: #EFEFEF !important;
 }
 
-
-
 #tree_up {
-		padding:0;
-		margin:0;
+	padding:0;
+	margin:0;
 }
+
+#tree_row {
+	height: 5px;
+	width: 2em;
+	top: 1.3em !important;
+	background-color: #F37934;
+}
+
+#roadmap .row:nth-of-type(odd) #tree_row {
+	right: -1.98em;
+}
+#roadmap .row:nth-of-type(even) #tree_row {
+	left: -1.98em;
+}
+
+
+
 
 .fa {
 	width: 1.5em !important;
