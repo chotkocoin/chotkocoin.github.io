@@ -8,27 +8,30 @@ body {
 
 #roadmap .row:nth-of-type(even) {
 	background-color: #EFEFEF;
+	text-align: right;
 }
 
-.road_left {
-	border-right: 2px;
-	border-right-color: #F37934;
+#roadmap .row:nth-of-type(odd) {
+	text-align: left;
 }
-.road_right {
-	border-left: 2px;
-	border-left-color: #F37934;
-}
-.road_left div, .road_right div {
+
+#roadmap .row:nth-of-type(even) div div, #roadmap .row:nth-of-type(odd) div div {
 	position: absolute;
 	top: 1em;
 }
-.road_left div {
+
+#roadmap .row:nth-of-type(even) div div {
+	left: 0;
+}
+
+#roadmap .row:nth-of-type(odd) div div {
 	right: 0;
 }
 
-.road_right div {
-	left: 0;
-}
+
+
+
+
 
 .fa {
 	width: 1.5em !important;
