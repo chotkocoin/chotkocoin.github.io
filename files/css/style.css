@@ -2,6 +2,13 @@
 body { 
 
 }
+#tree_up_down span {
+	border-left:2px solid #F37934;
+	border-right:2px solid #F37934;
+}
+#tree_up_down span:before{
+	content:' ';
+}
 #roadmap .fa {
 	font-size: 2em;
 }
@@ -38,7 +45,7 @@ body {
 	right: 2em;
 }
 
-#roadmap .row:nth-of-type(even) .fa {
+#roadmap .row:nth-of-type(odd) .fa {
 	color: #EFEFEF !important;
 }
 
@@ -60,9 +67,6 @@ body {
 #roadmap .row:nth-of-type(even) #tree_row {
 	left: -2em;
 }
-
-
-
 
 .fa {
 	width: 1.5em !important;
