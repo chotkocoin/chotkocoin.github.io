@@ -5,9 +5,11 @@ body {
 #roadmap .fa {
 	font-size: 2em;
 }
+#roadmap .row:nth-of-type(odd) {
+	background-color: #EFEFEF;
+}
 
 #roadmap .row:nth-of-type(even) {
-	background-color: #EFEFEF;
 	text-align: right;
 }
 
@@ -36,7 +38,7 @@ body {
 	right: 0;
 }
 
-#roadmap .row:nth-of-type(odd) .fa {
+#roadmap .row:nth-of-type(even) .fa {
 	color: #EFEFEF !important;
 }
 
