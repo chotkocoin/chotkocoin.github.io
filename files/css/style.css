@@ -2,6 +2,11 @@
 body { 
 
 }
+#tree_up_down {
+	margin: 0;
+	padding: 0;
+}
+
 #tree_up_down span {
 	border-left:2px solid #F37934;
 	border-right:2px solid #F37934;
