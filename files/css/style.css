@@ -2,6 +2,33 @@
 body { 
 
 }
+#roadmap .fa {
+	font-size: 2em;
+}
+
+#roadmap .row:nth-of-type(even) {
+	background-color: #EFEFEF;
+}
+
+.road_left {
+	border-right: 2px;
+	border-right-color: #F37934;
+}
+.road_right {
+	border-left: 2px;
+	border-left-color: #F37934;
+}
+.road_left div, .road_right div {
+	position: absolute;
+	top: 1em;
+}
+.road_left div {
+	right: 0;
+}
+
+.road_right div {
+	left: 0;
+}
 
 .fa {
 	width: 1.5em !important;
