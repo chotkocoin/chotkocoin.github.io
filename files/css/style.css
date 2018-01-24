@@ -66,16 +66,6 @@ body {
 	background-color: #F37934;
 }
 
-#succ_item .fa {
-	display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 14px;
-    line-height: 1;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 .fa {
     width: 1.5em !important;
     height: 1.5em !important;
@@ -90,12 +80,7 @@ body {
 	left: -2em;
 }
 
-.fa {
-	width: 1.5em !important;
-	height: 1.5em !important;
-	position: static !important;
-	background-color: #F37934 !important;
-}
+
 a, a:hover {
 	color: #F37934;	
 }
@@ -148,6 +133,7 @@ a, a:hover {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 #contact_info p {
 	line-height: 1.75;
 	padding: 100px 0;
