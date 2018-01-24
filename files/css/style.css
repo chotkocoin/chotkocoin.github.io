@@ -66,6 +66,23 @@ body {
 	background-color: #F37934;
 }
 
+#succ_item .fa {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    line-height: 1;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa {
+    width: 1.5em !important;
+    height: 1.5em !important;
+    position: static !important;
+    background-color: #F37934 !important;
+}
+
 #roadmap .row:nth-of-type(odd) #tree_row {
 	right: -2em;
 }
