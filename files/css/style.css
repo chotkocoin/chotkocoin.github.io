@@ -5,6 +5,7 @@ body {
 #chot_road #tree_up_down {
 	margin: 0;
 	padding: 0;
+	height: 1em;
 }
 
 #chot_road #tree_up_down span {
@@ -54,15 +55,12 @@ body {
 	color: #EFEFEF !important;
 }
 
-#tree_up {
+#chot_road #tree_up {
 	padding:0;
 	margin:0;
 }
-#chot_road #tree_up i {
-	border: 1px solid #FBA026;
-}
 
-#tree_row {
+#chot_road #tree_row {
 	height: 5px;
 	width: 2em;
 	top: 1.3em !important;
