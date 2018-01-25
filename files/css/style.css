@@ -14,7 +14,7 @@ body {
 #tree_up_down span:before{
 	content:' ';
 }
-#roadmap i[class=fa] {
+#roadmap i[class=fa], #chot_road i[class=fa] {
 	font-size: 2em;
 }
 #roadmap .row:nth-of-type(odd) {
@@ -50,7 +50,7 @@ body {
 	right: 2em;
 }
 
-#roadmap .row:nth-of-type(even) .fa {
+#roadmap .row:nth-of-type(even) #chot_road i[class=fa] {
 	color: #EFEFEF !important;
 }
 
@@ -66,7 +66,7 @@ body {
 	background-color: #F37934;
 }
 
-#chot_body .fa {
+#chot_body #chot_road i[class=fa] {
     width: 1.5em !important;
     height: 1.5em !important;
     position: static !important;
@@ -121,7 +121,7 @@ a, a:hover {
 }
 
 
-#chot_body #download .fa {
+#chot_body #download #chot_road i[class=fa] {
 	background-color: inherit !important;
 }
 
