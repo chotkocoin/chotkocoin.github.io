@@ -14,7 +14,7 @@ body {
 #tree_up_down span:before{
 	content:' ';
 }
-#roadmap .fa {
+#roadmap i[class=fa] {
 	font-size: 2em;
 }
 #roadmap .row:nth-of-type(odd) {
