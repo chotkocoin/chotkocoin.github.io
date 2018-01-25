@@ -58,6 +58,9 @@ body {
 	padding:0;
 	margin:0;
 }
+#chot_road #tree_up i {
+	border: 1px solid #FBA026;
+}
 
 #tree_row {
 	height: 5px;
