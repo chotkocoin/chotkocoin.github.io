@@ -2,55 +2,55 @@
 body { 
 
 }
-#tree_up_down {
+#chot_road #tree_up_down {
 	margin: 0;
 	padding: 0;
 }
 
-#tree_up_down span {
+#chot_road #tree_up_down span {
 	border-left:2px solid #F37934;
 	border-right:2px solid #F37934;
 }
-#tree_up_down span:before{
+#chot_road #tree_up_down span:before{
 	content:' ';
 }
-#roadmap i[class=fa], #chot_road i {
+#chot_road #roadmap i[class=fa], #chot_road i {
 	font-size: 2em;
 }
-#roadmap .row:nth-of-type(odd) {
+#chot_road #roadmap .row:nth-of-type(odd) {
 	background-color: #EFEFEF;
 }
 
-#roadmap .row:nth-of-type(even) {
+#chot_road #roadmap .row:nth-of-type(even) {
 	text-align: right;
 }
 
-#roadmap .row:nth-of-type(odd) {
+#chot_road #roadmap .row:nth-of-type(odd) {
 	text-align: left;
 }
 
-#roadmap #add_corder:nth-of-type(odd) {
+#chot_road #roadmap #add_corder:nth-of-type(odd) {
 	border-right:2px solid #F37934;
 }
 
-#roadmap #add_corder:nth-of-type(even) {
+#chot_road #roadmap #add_corder:nth-of-type(even) {
 	border-left:2px solid #F37934;
 }
 
-#roadmap .row:nth-of-type(even) div div, #roadmap .row:nth-of-type(odd) div div {
+#chot_road #roadmap .row:nth-of-type(even) div div, #chot_road #roadmap .row:nth-of-type(odd) div div {
 	position: absolute;
 	top: 1em;
 }
 
-#roadmap .row:nth-of-type(even) div div {
+#chot_road #roadmap .row:nth-of-type(even) div div {
 	left: 2em;
 }
 
-#roadmap .row:nth-of-type(odd) div div {
+#chot_road #roadmap .row:nth-of-type(odd) div div {
 	right: 2em;
 }
 
-#roadmap .row:nth-of-type(even) #chot_road i {
+#chot_road #roadmap .row:nth-of-type(even) i {
 	color: #EFEFEF !important;
 }
 
@@ -66,17 +66,17 @@ body {
 	background-color: #F37934;
 }
 
-#chot_body #chot_road i {
+#chot_body .fa {
     width: 1.5em !important;
     height: 1.5em !important;
     position: static !important;
     background-color: #F37934 !important;
 }
 
-#roadmap .row:nth-of-type(odd) #tree_row {
+#chot_road #roadmap .row:nth-of-type(odd) #tree_row {
 	right: -2em;
 }
-#roadmap .row:nth-of-type(even) #tree_row {
+#chot_road #roadmap .row:nth-of-type(even) #tree_row {
 	left: -2em;
 }
 
@@ -121,7 +121,7 @@ a, a:hover {
 }
 
 
-#chot_body #download #chot_road i {
+#chot_body #download .fa {
 	background-color: inherit !important;
 }
 
