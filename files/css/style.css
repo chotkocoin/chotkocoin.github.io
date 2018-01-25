@@ -17,7 +17,7 @@ body {
 #chot_road #roadmap i {
 	font-size: 2em;
 }
-#chot_road #roadmap .row:nth-of-type(odd) {
+#chot_road #roadmap .row:nth-of-type(even) {
 	background-color: #EFEFEF;
 }
 
@@ -50,7 +50,7 @@ body {
 	right: 2em;
 }
 
-#chot_road #roadmap .row:nth-of-type(even) i {
+#chot_road #roadmap .row:nth-of-type(odd) i {
 	color: #EFEFEF !important;
 }
 
